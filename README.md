@@ -1,9 +1,8 @@
-# Twitch Chat Bot - Readme
+# Twitch Chat Bot 
 
 ## Overview
 
-This is a Twitch chat bot built using Node.js and the `tmi.js` library. The bot connects to a Twitch channel's chat and performs various functions, including moderation, custom commands, and interaction with viewers. It comes with a set of default blocked words for moderation, and you can add more custom commands to make the bot more engaging for your viewers.
-
+This is a  chat bot built using Node.js and the `tmi.js` library
 ## Features
 
 - **Moderation**: The bot can detect and delete messages containing blocked words, and timeout the user for a specified duration.
@@ -24,8 +23,8 @@ This is a Twitch chat bot built using Node.js and the `tmi.js` library. The bot 
 
 To run this bot on your Twitch channel, follow these steps:
 
-1. Clone the repository: `git clone <repo_url>`
-2. Navigate to the project folder: `cd twitch-chat-bot`
+1. Clone the repository: `git clone https://github.com/nansess/TwitchNan/`
+2. Navigate to the project folder: `cd TwitchNan`
 3. Install dependencies: `npm install`
 4. Replace the following lines in the code with your own Twitch bot credentials:
 
@@ -46,7 +45,7 @@ const twitchBotOptions = {
 };
 ```
 
-5. Save the changes and run the bot: `npm start`
+5. Save the changes and run the bot: `npm run test`
 
 The bot should now be connected to your Twitch channel and ready to respond to commands and perform moderation tasks.
 
@@ -71,5 +70,3 @@ This Twitch chat bot is built using the `tmi.js` library and inspired by the Twi
 Please use this bot responsibly and adhere to Twitch's terms of service and community guidelines. Always prioritize user experience and ensure that any moderation actions are fair and appropriate.
 
 ---
-
-Thank you for choosing this Twitch Chat Bot! If you have any questions or need assistance, feel free to reach out to the project maintainers or open an issue on the GitHub repository. Enjoy interacting with your viewers and have a great time streaming on Twitch!
