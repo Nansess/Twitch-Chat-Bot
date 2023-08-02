@@ -1,0 +1,16 @@
+{
+  "name": "twitchnan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --inspect main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "tmi.js": "^1.8.5"
+  }
+}
