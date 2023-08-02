@@ -9,10 +9,10 @@ let blockedWords = [...defaultBlockedWords];
 
 const twitchBotOptions = {
   identity: {
-    username: `nanbottt`, // change to bot account username
-    password: `thigonhgpggbvii0phjw8kww432za5` // change to ur bot oauth token
+    username: 'YOUR_BOT_USERNAME',
+    password: 'YOUR_OAUTH_TOKEN' // Get the OAuth token from Twitch: https://twitchapps.com/tmi/
   },
-  channels: ['nanondex'], // Change this to an array of channels if you want to connect to multiple channels.
+  channels: ['YOUR_CHANNEL_NAME'], // Replace this with your Twitch channel name
   options: {
     debug: true,
   },
