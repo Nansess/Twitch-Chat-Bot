@@ -61,9 +61,6 @@ If you'd like to contribute to this project, feel free to create a pull request 
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code as per the terms of the license.
 
-## Credits
-
-This Twitch chat bot is built using the `tmi.js` library and inspired by the Twitch community's passion for creating interactive and engaging experiences for their viewers.
 
 ## Disclaimer
 
